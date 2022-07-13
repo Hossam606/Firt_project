@@ -1,0 +1,524 @@
+/*Start Global */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#cf2e2e
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;`
+}
+
+.text-center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+/* Start navbar*/
+
+.navbar1{
+    background-color: var(--main-color);
+    color: #fff;
+    
+}
+
+.navbar1 .icons{
+    text-align: center;
+    height: 35px;
+    padding-top: 7px;
+}
+
+.navbar1 .icons img
+{
+        height: 30px;
+}
+.navbar1 .logo{
+   text-align: center;
+    padding: 13px;
+    font-style: italic;
+    font-size: xx-large;
+}
+.navbar1 .links{
+    text-align: center;
+   
+}
+
+.navbar1 .links li{
+   display: inline-block;
+    padding: 11px 15px;
+   
+}
+.navbar1 .links li a{
+    color: #fff;
+    text-decoration: none;
+      transition: all .8s
+}
+
+ 
+.navbar1 .links li a:hover {
+    color: darkgoldenrod;
+    cursor:pointer;
+    
+}
+
+
+/*header */
+
+.header{
+    background: url('../image/background1.jpg');
+      background-size: cover;
+    position: relative;
+    height: 800px ! important;
+}
+
+.header .bxslider{
+   position: absolute;
+   text-align: center;
+   margin-top: 300px;
+   color: #fff;
+   width: -webkit-fill-available;
+    animation: 
+      
+}
+
+.header .overlay {
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.header p{
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.header h1{
+    font-style: italic;
+    font-family: sans-serif;
+    font-size:50px;
+}
+
+.header .bx-wrapper  {
+    box-shadow: none;
+    border: 0;
+    background: none;
+    position: inherit
+    
+}
+
+.header .bx-viewport  {
+    height: 100% ! important;
+    box-shadow: none;
+    
+    
+}
+.header .bxslider li{
+    
+}
+
+
+/* menu */
+
+.hidden{
+    display: none;
+}
+.menu{
+    padding: 50px 0;
+}
+.menu .content{
+    text-align: center;
+     font-style: italic;
+     
+}
+
+ 
+
+.menu .items-food .item{
+
+    position: relative;
+    float: left;
+    margin-bottom: 46px;
+     
+      
+}
+
+.menu .items-food .item:hover .over{
+    display: block;
+    
+}
+
+.menu .item .over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; 
+    background-color: rgb(213 9 9 / 80%);
+    border-radius: 10px;
+    display: none;
+  
+ }
+.menu .item .over  h2{
+     text-decoration: none;
+   font-size: 21px;
+    font-family: system-ui;
+    margin: 40px;
+  
+}
+.menu .item .over  h2 a{
+     text-decoration: none;
+      color: #000;
+}
+
+.menu .item .over p{
+    margin: 0 30px;
+    font-size: 20px;    
+}
+.menu .items-food .item img{
+     border-radius: 10px;
+   
+}
+
+.menu .show-more{
+    background: transparent;
+    border: 1px solid #ccc;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: currentColor;
+    cursor: pointer;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.menu .show-more:hover{
+     background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    color: #fff;
+}
+ 
+/*Details */
+
+.details1 {
+    height: 512px;
+     overflow: hidden;
+    position: relative;
+}
+
+.details1 .content {
+    float: left;
+    width: 50%;
+    text-align: right;
+     padding-top: 15px;
+
+}
+
+
+.details1 .content .title{
+    float: right; 
+    padding-bottom: 22px;
+}
+.details1 .content .price
+{
+    float: left; 
+    padding-left: 40px;
+    padding-top: 17px;
+    font-size: x-large;
+}
+.details1 .content p {
+ 
+    float: right;
+}
+
+
+.details1 .content .type {
+    padding-right: 55px;
+
+}
+
+.details1 .photo {
+    float: right;
+    width: 50%;
+   
+}
+
+.details1 .photo img {
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.details2 {
+    height: 512px;
+    overflow: hidden;
+    position: relative;
+}
+
+.details2 .photo2 {
+    float: left;
+    width: 50%;
+
+}
+
+.details2 .photo2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.details2 .content2 {
+    text-align: right;
+    float: right;
+    background-color: var(--main-color);
+    width: 50%;
+    height: 100%;
+    color: #eee;
+    padding-top: 15px;
+    
+    overflow: hidden;
+}
+
+
+
+.details2 .content2 .title{
+    float: right; 
+    padding-bottom: 22px;
+}
+.details2 .content2 .price{
+    float: left; 
+    padding-left: 40px;
+    padding-top: 17px;
+    font-size: x-large;
+}
+.details2 .content2 p {
+ 
+    float: right;
+}
+
+.details2 .content2 .type {
+    padding-right: 55px;
+}
+
+/*
+.details .content .type {
+             
+            text-align: right;
+            
+            margin-right: 90px;
+}
+.details .type .title{
+    float: right;
+    text-align: right;
+}
+
+.details .type .price {
+        text-align: left;
+        margin: 45px 90px;
+}
+*/
+
+
+/* chef */
+
+.cooks{
+    margin-top: 45px;
+}
+.cooks .content{
+    text-align: center;
+     font-style: italic;    
+}
+.cooks .chef {
+    overflow: hidden;
+}
+.cooks .chef .chef1{
+    text-align: center;
+    float: left;
+}
+.cooks .chef .chef1:hover img{
+    filter: none;
+    cursor: pointer;
+    -webkit-filter: grayscale(0);
+    box-shadow: 30px 30px 40px 10px rgb(2,2,2);
+    color: var(--main-color);
+   
+}
+.cooks .chef .chef1:hover h3,
+.cooks .chef .chef1:hover .social
+{
+    color: var(--main-color);
+}
+
+.cooks .chef .chef1 img{
+    filter: grayscale(1);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    border-radius: 10px;
+}
+/* gallary*/
+.our-food .content{
+    text-align: center;
+    
+}
+.our-food ul {
+    margin-left: 20px;
+    text-align: center;
+}
+.our-food ul li{
+    display: inline-block;
+    border: 1px solid #d4cccc;
+    color: #a7a7a7;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.our-food ul .selected{
+    background-color: var(--main-color);
+    border-radius: 2px solid #d4cccc;
+    color: #fff;
+}
+.our-food .gallary{
+    margin-top: 25px;
+    overflow: hidden;
+}
+ .our-food .gallary   div{
+    display: inline;
+      
+     
+} 
+ 
+.our-food .gallary img {
+     cursor: pointer;
+    
+}
+
+.our-food .gallary .row {
+    display: none;
+}
+
+/*footer */
+
+ 
+.footer  {
+    background-color: #333333;
+    display: flex;
+    color: #eee;
+    text-align: center;
+    padding: 70px 0px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 
+    
+}
+.footer .links{
+   float: left;
+   text-align: center;
+   margin: 10px 0px;
+   
+}
+.footer   .links p:hover
+,.footer   .links p a:hover{
+   color: darkgoldenrod;
+    border-bottom: 2px solid #labc9c;
+    cursor:pointer;
+   
+}
+.footer .links p a {
+   color: #eee;
+   
+   
+}
+.footer .icons h2{
+     color: var(--main-color);
+}
+
+.footer .icons{
+    text-align: center;
+    float: left;
+    margin: 10px 0px;
+    padding: 0px 20px
+}
+
+.footer .icons img
+{
+        height: 30px;
+}
+.footer .icons p {
+     padding: 0px 30px;
+}
+
+.footer_social{
+    background-color: #222222;
+    height: 120px;
+    padding: 25px;
+    color: #c9c2c2;
+    text-align: center;
+}
+ .footer_social i {
+    padding: 10px 5px;
+    transition: all .5s;
+}
+ .footer_social i:hover {
+     cursor: pointer;
+    color: var(--main-color);
+     padding: 0px 25px;
+}
+ .footer_social span{
+    color:var(--main-color);
+}
+
+/*grid system */
+
+/*
+
+@media(min-width:576px){
+    .container {
+        max-width: 540px;
+    }
+     
+}
+@media(min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+    
+}
+@media(min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+     
+}
+@media(min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+     
+}
+
+
+    
+ start my framework*/
+/* */
+/* start my framework*/
+.clearfix{
+    clear: both
+}
